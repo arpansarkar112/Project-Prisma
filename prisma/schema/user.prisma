@@ -11,6 +11,8 @@ model User {
   updatedAt DateTime @updatedAt
 
   profile Profile?
+  subscription Subscription?
+
 
   posts   Post[]
   comment Comment[]

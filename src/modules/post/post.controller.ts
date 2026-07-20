@@ -30,7 +30,8 @@ const getAllPosts =
             success: true,
             statusCode: HttpStatus.OK,
             message: "Post retrieved successfully",
-            data: result 
+            data: result.data,
+            meta: result.meta
         })
     })
 

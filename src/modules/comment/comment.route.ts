@@ -17,8 +17,8 @@ router.get(
 );
 
 router.get(
-    "/:commentId",
-    commentController.getCommentByCommentId
+    "/:postId",
+    commentController.getCommentByPostId
 );
 
 router.patch(
